@@ -1,8 +1,9 @@
+
 {
   "manifest_version": 2,
   "name": "ChatGPT Summarizer",
   "version": "1.0",
-  "permissions": ["contextMenus", "activeTab"],
+  "permissions": ["contextMenus", "activeTab", "https://api.openai.com/"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
